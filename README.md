@@ -24,6 +24,9 @@ make
 
 **Character Manipulation**
 
+-ft_isalpha
+-ft_isdigit
+
 • ft_isalpha
 
 • ft_isdigit
