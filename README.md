@@ -23,48 +23,77 @@ make
 ## Library Functions
 
 **Character Manipulation**
+
 • ft_isalpha
+
 • ft_isdigit
+
 • ft_isalnum
+
 • ft_isascii
+
 • ft_isprint
+
 • ft_toupper
+
 • ft_tolower
 
 **String Manipulation**
+
 • ft_split
+
 • ft_strchr
+
 • ft_strdup
+
 • ft_striteri
+
 • ft_strjoin
+
 • ft_strlcat
+
 • ft_strlcpy
+
 • ft_strlen
+
 • ft_strmapi
+
 • ft_strcmp
+
 • ft_strnstr
+
 • ft_strrchr
+
 • ft_strtrim
+
 • ft_substr
 
 **Memory Manipulation**
 
 • ft_bzero
+
 • ft_memchr
+
 • ft_memcmp
+
 • ft_memmove
+
 • ft_memset
 
 **Numbers**
 
 • ft_atoi
+
 • ft_itoa
 
 **File Descriptors**
 
 • ft_putchar_fd
+
 • ft_putendl_fd
+
 • ft_putnbr_fd
+
 • ft_putstr_fd
 
 **printf()**
