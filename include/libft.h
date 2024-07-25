@@ -57,6 +57,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
@@ -80,16 +81,5 @@ char	*ft_readtilnl(int fd, char *linestart);
 char	*ft_cutline(char *linestart);
 char	*ft_movepointer(char *linestart);
 char	*ft_strjoin_gnl(char *s1, char *s2);
-
-//**BONUS**: LINKED LIST FUNCTIONS??
-//ft_lstnew*
-//ft_lstsize*
-//ft_lstlast*
-//ft_lstadd_back*
-//ft_lstadd_front*
-//ft_lstdelone*
-//ft_lstclear*
-//ft_lstiter*
-//ft_lstmap*
 
 #endif

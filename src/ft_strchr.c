@@ -1,30 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nlehmeye <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/16 16:55:49 by nlehmeye          #+#    #+#             */
-/*   Updated: 2023/07/16 16:55:51 by nlehmeye         ###   ########.fr       */
+/*   Created: 2023/07/14 17:28:01 by nlehmeye          #+#    #+#             */
+/*   Updated: 2023/11/16 11:16:43 by nlehmeye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// Compares byte string s1 against byte string s2
-//Both strings are assumed to be n bytes long.
-//NOTE TO SELF: (void *) don't have '\0' like strings
+//Locate first int c (converted to char) in the string *s.
+//Terminating null character is considered part of the string
+//If c is '\0', function will locate '\0'
+//Returns pointer to c or NULL if param error
+
 #include "libft.h"
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
+char	*ft_strchr(const char *s, int c)
 {
-	size_t	i;
+	unsigned char	i;
 
-	i = 0;
-	while (i < n)
+	i = c;
+	while (*s)
 	{
-		if (((unsigned char *)s1)[i] != ((unsigned char *)s2)[i])
-			return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
-		i++;
+		if (*s == i)
+			return ((char *)s);
+		s++;
 	}
-	return (0);
+	if (i == '\0')
+		return ((char *)s);
+	return (NULL);
 }

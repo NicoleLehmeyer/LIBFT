@@ -4,82 +4,68 @@ NAME = libft.a
 
 all: $(NAME)
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -Iinclude
 
-SOURCES	=	ft_split.c \
-	ft_strtrim.c \
-	ft_strmapi.c \
-	ft_striteri.c \
-	ft_substr.c \
-	ft_itoa.c \
-	ft_atoi.c \
-	ft_strjoin.c \
-	ft_strlcpy.c \
-	ft_strdup.c \
-	ft_strlen.c \
-	ft_memmove.c \
-	ft_memcpy.c \
-	ft_bzero.c \
-	ft_memset.c \
-	ft_calloc.c \
-	ft_strlcat.c \
-	ft_memchr.c \
-	ft_memcmp.c \
-	ft_strncmp.c \
-	ft_strchr.c \
-	ft_strnstr.c \
-	ft_strrchr.c \
-	ft_toupper.c \
-	ft_tolower.c \
-	ft_isalpha.c \
-	ft_isdigit.c \
-	ft_isalnum.c \
-	ft_isascii.c \
-	ft_isprint.c \
-	ft_putchar_fd.c \
-	ft_putstr_fd.c \
-	ft_putendl_fd.c \
-	ft_putnbr_fd.c \
-	ft_printf.c \
-	ft_c.c \
-	ft_s.c \
-	ft_num.c \
-	ft_u.c \
-	ft_p.c \
-	ft_hex.c \
-	get_next_line.c \
-	get_next_line_utils.c \
+SOURCES	=	src/ft_split.c \
+	src/ft_strtrim.c \
+	src/ft_strmapi.c \
+	src/ft_striteri.c \
+	src/ft_substr.c \
+	src/ft_itoa.c \
+	src/ft_atoi.c \
+	src/ft_strjoin.c \
+	src/ft_strlcpy.c \
+	src/ft_strdup.c \
+	src/ft_strlen.c \
+	src/ft_memmove.c \
+	src/ft_memcpy.c \
+	src/ft_bzero.c \
+	src/ft_memset.c \
+	src/ft_calloc.c \
+	src/ft_strlcat.c \
+	src/ft_memchr.c \
+	src/ft_memcmp.c \
+	src/ft_strncmp.c \
+	src/ft_strchr.c \
+	src/ft_strnstr.c \
+	src/ft_strrchr.c \
+	src/ft_toupper.c \
+	src/ft_tolower.c \
+	src/ft_isalpha.c \
+	src/ft_isdigit.c \
+	src/ft_isalnum.c \
+	src/ft_isascii.c \
+	src/ft_isprint.c \
+	src/ft_putchar_fd.c \
+	src/ft_putstr_fd.c \
+	src/ft_putendl_fd.c \
+	src/ft_putnbr_fd.c \
+	src/ft_printf.c \
+	src/ft_split.c \
+	src/ft_c.c \
+	src/ft_s.c \
+	src/ft_num.c \
+	src/ft_u.c \
+	src/ft_p.c \
+	src/ft_hex.c \
+	src/get_next_line.c \
+	src/ft_strjoin_gnl.c \
 
-#BONUSES	=	ft_lstnew.c
-#ft_lstadd_front.c
-#ft_lstsize.c
-#ft_lstlast.c
-#ft_lstadd_back.c
-#ft_lstdelone.c
-#ft_lstclear.c
-#ft_lstiter.c
-#ft_lstmap.c
-
-OBJECTS = $(SOURCES:%.c=%.o)
-
-#BONUS_OBJECTS	= $(BONUSES:%.c=%.o)
+OBJECTS = $(SOURCES:src/%.c=obj/%.o)
 
 # COMPILE USING THE FLAGS FOR %.o FILES WHICH HAVE CORRESPONDING %.c FILES
 # $@ = target. Compiled output should be named after the target (%.o)
 # $< = first prerequisite. -c $< = compile only the first prerequisite (%.c) into object file (%.o)
-%.o: %.c
+obj/%.o: src/%.c
+	mkdir -p obj
 	cc $(FLAGS) -o $@ -c $<
 
 # MAKING ARCHIVE FILE (NAME) FROM OBJECT FILES (OBJECTS)
 $(NAME):	$(OBJECTS)
 	ar rcs $(NAME) $(OBJECTS)
 
-#bonus:	$(BONUS_OBJECTS)
-#	ar rc $(NAME) $(BONUS_OBJECTS)
-
 clean:
-	rm -f $(OBJECTS)
-#$(BONUS_OBJECTS)
+	rm -rf obj
 
 fclean: clean
 	rm -f $(NAME)

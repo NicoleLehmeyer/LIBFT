@@ -1,32 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_d.c                                             :+:      :+:    :+:   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nlehmeye <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/08 10:06:50 by nlehmeye          #+#    #+#             */
-/*   Updated: 2023/08/08 10:06:51 by nlehmeye         ###   ########.fr       */
+/*   Created: 2023/07/16 16:55:49 by nlehmeye          #+#    #+#             */
+/*   Updated: 2023/07/16 16:55:51 by nlehmeye         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Compares byte string s1 against byte string s2
+//Both strings are assumed to be n bytes long.
+//NOTE TO SELF: (void *) don't have '\0' like strings
+
 #include "libft.h"
 
-//Print decimal/
-void	ft_num(int d, int *len)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	if (d == -2147483648)
+	size_t	i;
+
+	i = 0;
+	while (i < n)
 	{
-		ft_s("-2147483648", len);
-		return ;
+		if (((unsigned char *)s1)[i] != ((unsigned char *)s2)[i])
+			return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
+		i++;
 	}
-	if (d < 0)
-	{
-		write (1, "-", 1);
-		d = -d;
-		(*len)++;
-	}
-	if (d > 9)
-		ft_num(d / 10, len);
-	ft_c(d % 10 + '0', len);
+	return (0);
 }
