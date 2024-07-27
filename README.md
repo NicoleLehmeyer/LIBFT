@@ -12,7 +12,7 @@
 </p>
 
 <p>
-*Norm Compliant* (View 42's organisational syntax rules <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">here</a>)
+*Norm Compliant* (View 42's organisational syntax rules <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">here</a>)<br>
 </p>
 To compile:
 ```
