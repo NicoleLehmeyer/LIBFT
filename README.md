@@ -25,7 +25,7 @@ ft_split / ft_strchr / ft_strdup / ft_striteri / ft_strjoin / ft_strlcat / ft_st
 <b>Memory Manipulation</b><br>
 ft_bzero / ft_memchr / ft_memcmp / ft_memmove / ft_memset<br><br>
 <b>Numbers</b><br>
-ft_atoi / ft_itoa<br>
+ft_atoi / ft_itoa<br><br>
 <b>File Descriptors</b><br>
 ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd<br><br>
 <b>printf()</b><br><br>
