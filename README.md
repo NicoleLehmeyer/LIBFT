@@ -4,14 +4,12 @@
   'Libft' is a library of functions created in the first 3 projects (libft, ft_printf & get_next_line) in the 42 Common Core:
   
 <b>1. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/LIBFT_SUBJECT.pdf">libft</a></b>: recode functions from the C standard library, plus other utility functions for char/string/memory manipulation, for use in future 42 projects.
-  <br><b>Libft Grade: 100%</b><br><br>
+  <br><blibft Grade: 100%</b><br><br>
 <b>2. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/PRINTF_SUBJECT.pdf">ft_printf</a></b>: recode printf(), with implementation of variadic functions.
   <br><b>ft_printf Grade: 100%</b><br><br>
 <b>3. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/GNL_SUBJECT.pdf">get_next_line</a>:</b> Create a function which can read content from an fd line by line.
   <br><b>get_next_line Grade: 101%</b><br><br>
 </p>
-
-## Libft Usage
 
 To compile:
 ```
