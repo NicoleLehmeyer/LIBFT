@@ -18,15 +18,15 @@ make
 
 ## Library Functions
 <p>
-<b>Character Manipulation</b>
+<b>Character Manipulation</b><br>
 ft_isalpha / ft_isdigit / ft_isalnum / ft_isascii / ft_isprint / ft_toupper / ft_tolower<br><br>
-<b>String Manipulation</b>
+<b>String Manipulation</b><br>
 ft_split / ft_strchr / ft_strdup / ft_striteri / ft_strjoin / ft_strlcat / ft_strlcpy / ft_strlen / ft_strmapi / ft_strcmp / ft_strnstr / ft_strrchr / ft_strtrim / ft_substr<br><br>
-<b>Memory Manipulation</b>
+<b>Memory Manipulation</b><br>
 ft_bzero / ft_memchr / ft_memcmp / ft_memmove / ft_memset<br><br>
-<b>Numbers</b>
+<b>Numbers</b><br>
 ft_atoi / ft_itoa<br>
-<b>File Descriptors</b>
+<b>File Descriptors</b><br>
 ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd<br><br>
 <b>printf()</b><br><br>
 <b>get_next_line()</b><br><br>
