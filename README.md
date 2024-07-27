@@ -1,7 +1,7 @@
 # LIBFT
 
 <p>
-  'Libft' is a library of functions created in the first 3 projects (libft, ft_printf & get_next_line) in the 42 Common Core:
+  <b>'Libft' is a library of functions created in the first 3 projects (libft, ft_printf & get_next_line) in the 42 Common Core:</b>
   
 <b>1. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/LIBFT_SUBJECT.pdf">libft</a></b>: recode functions from the C standard library, plus other utility functions for char/string/memory manipulation, for use in future 42 projects.
   <br><blibft Grade: 100%</b><br><br>
