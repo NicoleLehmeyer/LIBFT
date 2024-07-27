@@ -26,9 +26,9 @@ make
 <b>Character Manipulation</b><br>
 ft_isalpha / ft_isdigit / ft_isalnum / ft_isascii / ft_isprint / ft_toupper / ft_tolower<br><br>
 <b>String Manipulation</b><br>
-ft_split / ft_strchr / ft_strdup / ft_striteri / ft_strjoin / ft_strlcat / ft_strlcpy / ft_strlen / ft_strmapi / ft_strcmp / ft_strnstr / ft_strrchr / ft_strtrim / ft_substr<br><br>
+ft_split / ft_strchr / ft_strrchr / ft_strdup / ft_striteri / ft_strjoin / ft_strlcat / ft_strlcpy / ft_strlen / ft_strmapi / ft_strcmp / ft_strncmp / ft_strnstr / ft_strtrim / ft_substr<br><br>
 <b>Memory Manipulation</b><br>
-ft_bzero / ft_memchr / ft_memcmp / ft_memmove / ft_memset<br><br>
+ft_bzero / ft_memset / ft_memcpy / ft_memchr / ft_memcmp / ft_memmovet / calloc<br><br>
 <b>Numbers</b><br>
 ft_atoi / ft_itoa<br><br>
 <b>File Descriptors</b><br>
