@@ -20,23 +20,23 @@ make
 
 **Character Manipulation**
 
-ft_isalpha / ft_isdigit / ft_isalnum / ft_isascii / ft_isprint / ft_toupper / ft_tolower
+ft_isalpha / ft_isdigit / ft_isalnum / ft_isascii / ft_isprint / ft_toupper / ft_tolower<br>
 
 **String Manipulation**
 
-ft_split / ft_strchr / ft_strdup / ft_striteri / ft_strjoin / ft_strlcat / ft_strlcpy / ft_strlen / ft_strmapi / ft_strcmp / ft_strnstr / ft_strrchr / ft_strtrim / ft_substr
+ft_split / ft_strchr / ft_strdup / ft_striteri / ft_strjoin / ft_strlcat / ft_strlcpy / ft_strlen / ft_strmapi / ft_strcmp / ft_strnstr / ft_strrchr / ft_strtrim / ft_substr<br>
 
 **Memory Manipulation**
 
-ft_bzero / ft_memchr / ft_memcmp / ft_memmove / ft_memset
+ft_bzero / ft_memchr / ft_memcmp / ft_memmove / ft_memset<br>
 
 **Numbers**
 
-ft_atoi / ft_itoa
+ft_atoi / ft_itoa<br>
 
 **File Descriptors**
 
-ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd
+ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd<br>
 
 **printf()**
 
