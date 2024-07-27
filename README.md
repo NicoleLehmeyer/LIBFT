@@ -1,23 +1,13 @@
 # LIBFT
 
-Libft is a library of functions created in the first 3 projects (libft, ft_printf & get_next_line) in the 42 Common Core:
-**1. libft**, the first 42 project, involves recoding functions from the C standard library, plus other utility functions for char/string/memory manipulation, for use in future 42 projects.
-**2. ft_printf** is a 42 project involving recoding printf, with implementation of variadic functions.
-**3. get_next_line**, is a 42 project involving creation of a function which can read content from a fd line by line.
-
 <p>
   Libft is a library of functions created in the first 3 projects (libft, ft_printf & get_next_line) in the 42 Common Core:
   
-1. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/LIBFT_SUBJECT.pdf">libft</a> the first 42 project, involves recoding functions from the C standard library, plus other utility functions for char/string/memory manipulation, for use in future 42 projects.
+1. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/LIBFT_SUBJECT.pdf">libft</a>: recode functions from the C standard library, plus other utility functions for char/string/memory manipulation, for use in future 42 projects.
 
+2. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/PRINTF_SUBJECT.pdf">ft_printf</a>: recode printf(), with implementation of variadic functions.
+3. <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/GNL_SUBJECT.pdf">get_next_line</a>: Create a function which can read content from an fd line by line.
 </p>
-
-  1. libft**, the first 42 project, involves recoding functions from the C standard library, plus other utility functions for char/string/memory manipulation, for use in future 42 projects.
-**2. ft_printf** is a 42 project involving recoding printf, with implementation of variadic functions.
-**3. get_next_line**, is a 42 project involving creation of a function which can read content from a fd line by line.
-Made by NicoleLehmeyer: nlehmeye@student.42adel.org.au | LinkedIn: <a href="https://www.linkedin.com/in/nicole-lehmeyer/">nicole-lehmeyer</a> | Discord: <a href="https://discordapp.com/users/1107446949344448543/">nicole.lehmeyer</a>
-</p>
-<a href="https://www.linkedin.com/in/nicole-lehmeyer/">nicole-lehmeyer</a>
 
 ## LIBFT Grade: 100%
 ## ft_printf Grade: 100%
