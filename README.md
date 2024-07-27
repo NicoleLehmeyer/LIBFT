@@ -20,6 +20,7 @@ To compile:
 make
 ```
 
+
 ## Library Functions
 <p>
 <b>Character Manipulation</b><br>
