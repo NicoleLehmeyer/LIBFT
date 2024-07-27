@@ -15,12 +15,6 @@
 ** The above 3 projects are compliant to the '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norm</a>' (42's organisational syntax) **<br><br>
 </p>
 
-To compile:
-```
-make
-```
-<p><br><br></p>
-
 ## Library Functions
 <p>
 <b>Character Manipulation</b><br>
@@ -37,6 +31,11 @@ ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd<br><br>
 <b>get_next_line()</b><br><br>
 </p>
 
+To compile:
+```
+make
+```
+<p><br><br></p>
 ---
 <p align="center">
 Made by NicoleLehmeyer: nlehmeye@student.42adel.org.au | LinkedIn: <a href="https://www.linkedin.com/in/nicole-lehmeyer/">nicole-lehmeyer</a> | Discord: <a href="https://discordapp.com/users/1107446949344448543/">nicole.lehmeyer</a>
