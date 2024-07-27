@@ -14,6 +14,7 @@
 <p>
 **Compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norm</a>' (42's organisational syntax)<br><br>
 </p>
+
 To compile:
 ```
 make
