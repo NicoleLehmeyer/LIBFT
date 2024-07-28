@@ -31,8 +31,7 @@ ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd<br><br>
 <b>get_next_line()</b><br><br>
 </p>
 
-## To compile:
-``` make ```
+## To compile: ``` make ```
 <p><br><br></p>
 ---
 <p align="center">
