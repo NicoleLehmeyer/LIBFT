@@ -29,11 +29,10 @@ ft_atoi / ft_itoa<br><br>
 ft_putchar_fd / ft_putendl_fd / ft_putnbr_fd / ft_putstr_fd<br><br>
 <b>printf()</b><br><br>
 <b>get_next_line()</b><br><br>
-
-<b>To compile:</b> ``` make ```
-<br>
 </p>
 
+## To compile:
+``` make ```
 
 <p><br><br></p>
 ---
