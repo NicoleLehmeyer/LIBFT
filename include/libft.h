@@ -66,6 +66,9 @@ char	**ft_split(char const *s, char c);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (f)(unsigned int, char*));
 
+//NON-PROJECT FUNCTIONS
+void	ft_free_array(char **array);
+
 //PRINTF HEADER
 int		ft_printf(const char *s, ...);
 void	ft_c(int c, int *len);
